@@ -1,4 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
+
+
 Console.WriteLine("Hello, World!");
 
 
@@ -44,3 +46,26 @@ Adc adc2 = new Adc("Dps", "Draven");
 adc.GetAdc();
 adc1.GetAdc();
 adc2.GetAdc();
+
+string sentance = "Never give up. you cant give up.";
+
+string[] subs = sentance.Split(' ', '.');
+
+foreach(string sub in subs)
+{
+    Console.WriteLine($"Substring: {sub}");
+}
+
+
+// doesnt work
+//class Programs
+//{
+//    public static int AddNumber(int a, int b)
+//    {
+//        return a + b;
+//    }
+//    static void Main()
+//    {
+//        Console.WriteLine(AddNumber(6, 6));
+//    }
+//}
